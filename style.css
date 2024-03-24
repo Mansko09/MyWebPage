@@ -1,6 +1,18 @@
 h1 {
     color:crimson;
+    text-align: center;
+    font-size: 3em;
 }
 h2{
     color:coral;
+    font-size: 2em;
+}
+
+p,br{
+    color: black;
+    font-size: 1.2em;
+}
+
+ul,li{
+    font-size: 1.1em;
 }
