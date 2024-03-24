@@ -25,4 +25,4 @@ Chaque page comporte des liens de navigation pour faciliter l'exploration du por
 ---
 Pour toute question ou suggestion, veuillez contacter [mantoulaye.mbengue@ensea.fr](mailto:mantoulaye.mbengue@ensea.fr).
 
-For any questions or suggestions, please contact [mantoulaye.mbengue@ensea.fr](mailto:mantoulaye.mbengue@ensea.fr).
+
