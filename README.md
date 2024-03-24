@@ -1,5 +1,3 @@
-**README.md**
-
 # Mantoulaye Mbengue - Portfolio
 
 Ce dépôt GitHub contient les fichiers HTML et CSS pour mon portfolio.
