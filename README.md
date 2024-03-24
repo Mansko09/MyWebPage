@@ -23,7 +23,4 @@ La page "À propos" offre un aperçu détaillé de mon parcours académique et d
 Chaque page comporte des liens de navigation pour faciliter l'exploration du portfolio.
 
 ---
-Pour accéder au site web, veuillez cliquer sur le lien suivant : [Portfolio de Mantoulaye Mbengue](https://mantoulaye.github.io)
-
----
 Pour toute question ou suggestion, veuillez contacter [mantoulaye.mbengue@ensea.fr](mailto:mantoulaye.mbengue@ensea.fr).
