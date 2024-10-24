@@ -1,70 +1,164 @@
+/* Général */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#7F7FD5,#86A8E7,#91EAE4);
+    color: #333;
+}
+
+/* Titres */
 h1 {
-    color:black;
+    color: black;
     text-align: center;
     font-size: 3em;
     background-color: lightsalmon;
-    font-family:  Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
 }
-h2{
-    color:coral;
-    font-family:  Georgia, sans-serif;
+
+h2 {
+    color: coral;
+    font-family: Georgia, sans-serif;
     font-size: 2em;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 }
 
-h3{
+h3 {
     color: crimson;
-    font-family:  Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
-
 }
 
-p,br,div{
+/* Textes */
+p, br, div {
     color: black;
     font-size: 1.2em;
-    font-family:  Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
 }
 
-ul,li{
+ul, li {
     font-size: 1.1em;
-    font-family:  Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
 }
 
-.banniere{
+/* Navigation */
+header nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Bannière */
+.banniere, .banniere2 {
     padding: 100px;
-    background-image: url('images/image2.jpg') ;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center; 
-
+    background-position: center;
 }
 
-.banniere2{
-    padding: 100px;
-    background-image: url('images/mantou_photo.jpg');
-    background-attachment: fixed;
-    background-size: cover center;
-    
+/* Sections */
+section.content {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
-
-
-body{
-    background : linear-gradient(#7F7FD5,#86A8E7,#91EAE4);
-
+section.content h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
 }
-.cta {
-    background: linear-gradient(#8e86b5, #acaeed);
+
+section.content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Compétences */
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #f39c12;
     color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Boutons d'appel à l'action */
+.cta-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
     border-radius: 50px;
-  }
-  
-  .carre-contenu {
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #f39c12;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .social-links img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-links img:hover {
+    transform: scale(1.2);
+}
+
+/* Autres styles */
+.carre-contenu {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
-  }
+}
 
-
-.gras{
-    font-style: bold;
+.gras {
+    font-weight: bold;
 }
